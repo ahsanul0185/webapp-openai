@@ -85,7 +85,7 @@ const AiChatBox = () => {
 
 
       {/* Chat */}
-      <div className="min-h-0 h-full sm:px-2 flex flex-col justify-end">
+      <div className="min-h-0 h-screen sm:px-2 flex flex-col justify-end">
         <Chat />
       </div>
 

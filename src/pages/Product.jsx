@@ -19,7 +19,7 @@ const Product = ({contentData}) => {
   } = useAppContext();
 
   return (
-    <div className="relative h-screen flex flex-col sm:flex-row text-white overflow-clip z-0">
+    <div className={`relative flex flex-col sm:flex-row text-white overflow-clip z-0 ${isChatBoxOpen ? "h-screen sm:h-screen" : "h-fit sm:h-screen"}`}>
       {/* Header */}
       <div className="hidden sm:flex lg:hidden absolute left-0 top-0 px-7 py-6 items-center justify-between gap-6 w-full bg-black">
         <button onClick={() => setShowTabletSidebar((prev) => !prev)}>
