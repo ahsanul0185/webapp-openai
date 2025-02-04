@@ -11,11 +11,11 @@ const MiddleSection = () => {
 
   return (
     <div
-      className="flex-1 px-8 sm:px-20 md:px-12 mb-8 lg:mt-10 lg:mb-[6rem] overflow-y-scroll overflow-x-hidden custom-scrollbar "
+      className="flex-1 px-8 sm:px-20 md:px-12 mb-20 lg:mt-10  lg:mb-[6rem] overflow-y-scroll overflow-x-hidden custom-scrollbar "
     >
       <div ref={topRef} />
       
-      <div >
+      <div>
         <p className="text-sm sm:text-base leading-[25px] sm:leading-loose sm:pt-16 lg:pt-0">
           {selectedContent} 
         </p>
