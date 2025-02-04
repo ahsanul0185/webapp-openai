@@ -15,7 +15,7 @@ const Header = () => {
 
       <button onClick={() => window.location.href = "https://dashboard-edai.netlify.app/"} className="flex items-center text-sm gap-3 duration-200 hover:bg-light/10">
         <img draggable={false} src={icon_logout} alt="" className="size-3.5" />
-        Kirjaudu u10S
+        Kojelauta
       </button>
     </div>
   );
